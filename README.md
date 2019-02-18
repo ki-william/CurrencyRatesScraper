@@ -32,5 +32,8 @@ accordeing to your Database
 
 #### Docker image
 if you gonna use docker image don't foreget to add the pramter 
-'port=3307' to the function connect() 
-inside app/config.py   
+##### port=3307 
+to the function 
+##### connect() 
+inside 
+##### app/config.py   
