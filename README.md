@@ -7,15 +7,15 @@ It's a currency Rates scraper usign fixerio REST API
   -mysqlclient
   -fixerio
   
-  #installing
+#installing
+    
     pip install mysqlclient
     pip install fixerio
-    
-    or 
+     
     easy_install mysqlclient
     easy_install fixerio
-    
-    #Usage 
+ 
+ #Usage 
     After getting the dependencies run app.py in /app passing to it a currency code and it will show you the current Rate
     EX : python app.py USD
     
