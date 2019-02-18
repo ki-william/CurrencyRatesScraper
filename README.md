@@ -25,10 +25,12 @@ It's a currency Rates scraper usign fixerio REST API
    
    
 ### Notice
-''''
-    don't forget to change the app/config.py paramaters
-    accordeing to your Database and 
-''''    
-    if you gonna use the docker image don't foreget to add the pramter 
-    port=3307 to the function connect() 
-    inside app/config.py   
+
+#### don't forget 
+to change the app/config.py paramaters
+accordeing to your Database 
+
+#### Docker image
+if you gonna use docker image don't foreget to add the pramter 
+'port=3307' to the function connect() 
+inside app/config.py   
