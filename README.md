@@ -20,8 +20,10 @@ installing
     pass to it a currency code and it will show you the current Rate
     
     python app.py USD
-    
-    
+   
+   
+Notice
+
     don't forget to change the app/config.py paramaters
     accordeing to your Database and 
     
