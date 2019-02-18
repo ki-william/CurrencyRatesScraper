@@ -27,7 +27,7 @@ It's a currency Rates scraper usign fixerio REST API
 ### Notice
 
 #### don't forget 
-to change the app/config.py paramaters
+changing the app/config.py paramaters
 accordeing to your Database 
 
 #### Docker image
