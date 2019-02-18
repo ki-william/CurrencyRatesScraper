@@ -11,7 +11,9 @@ It's a currency Rates scraper usign fixerio REST API
     
     pip install mysqlclient
     pip install fixerio
-     
+    
+    or
+    
     easy_install mysqlclient
     easy_install fixerio
  
