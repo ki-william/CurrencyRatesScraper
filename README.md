@@ -3,11 +3,11 @@
 It's a currency Rates scraper usign fixerio REST API
 
 
-##dependencies
+## dependencies
   -mysqlclient
   -fixerio
   
-##installing
+## installing
     
     pip install mysqlclient
     pip install fixerio
@@ -15,14 +15,14 @@ It's a currency Rates scraper usign fixerio REST API
     easy_install mysqlclient
     easy_install fixerio
  
- ##Usage 
+ ## Usage 
     After getting the dependencies run app/app.py
     pass to it a currency code and it will show you the current Rate
     
     python app.py USD
    
    
-Notice
+### Notice
 
     don't forget to change the app/config.py paramaters
     accordeing to your Database and 
