@@ -1,0 +1,24 @@
+# Use root/root as user/password credentials
+version: '3'
+
+services:
+
+
+  mysql:
+    image: mysql
+    ports:
+      - "3307:3306"
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+    volumes:
+      - ./db2:/docker-entrypoint-initdb.d
+
+#  app:
+#    build: ./app
+#    links:
+#      - mysql
+#    ports:
+#      - "8080:8080"
+
+###
