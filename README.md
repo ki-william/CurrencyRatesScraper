@@ -16,10 +16,13 @@ installing
     easy_install fixerio
  
  Usage 
-    After getting the dependencies run app/app.py and pass to it a currency code and it will show you the current Rate
-    EX : python app.py USD
+    After getting the dependencies run app/app.py
+    pass to it a currency code and it will show you the current Rate
     
-    PS: don't forget to change the app/config.py paramaters
+    python app.py USD
+    
+    
+    don't forget to change the app/config.py paramaters
     accordeing to your Database and 
     
     if you gonna use the docker image don't foreget to add the pramter 
